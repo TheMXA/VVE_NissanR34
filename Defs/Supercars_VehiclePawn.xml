@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+	<Vehicles.PatternDef>
+			<defName>VVE_VehiclePattern_Nissan</defName>
+			<label>Nissan (stock)</label>
+			<path>Things/Vehicles/Nissan_R34/Nissan_Pattern</path>
+	</Vehicles.PatternDef>
+
 	<Vehicles.VehicleDef ParentName="VehiclePawn_Mechanical">
 		<defName>VVE_Nissan</defName>
 		<label>Nissan R34</label>
@@ -13,16 +19,18 @@ In the RimWorld world, it looks just as wild as it did in the 21st century — i
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(3, 5)</drawSize>
+			
+			<pattern>VVE_VehiclePattern_Nissan</pattern>
 			<color>(255, 255, 255)</color>
-			<colorTwo>(0, 0, 255)</colorTwo>
-			<colorThree>(1, 255, 0)</colorThree>
+			<colorTwo>(7, 41, 116)</colorTwo>
+			<colorThree>(0, 12, 30)</colorThree>
 		</graphicData>
 		
 		<fillPercent>0.8</fillPercent>
 		
 		<buildDef>VVE_Nissan_Blueprint</buildDef>
 		
-		<size>(2, 4)</size>
+		<size>(2, 5)</size>
 		
 		<vehicleCategory>Transport</vehicleCategory>
 		<techLevel>Industrial</techLevel>
