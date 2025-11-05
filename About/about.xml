@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>NissanR34</name>
+	<author>NelsonArts/Mashinist/Ambrosia/Princess_Crystal</author>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>GRIMFORGETeam.VEFNissanR34</packageId>
+	<description>Adds the legendary Nissan Skyline GT-R R34 to the game, a car that has become an icon of speed and Japanese engineering.</description>
+	<url>https://github.com/TheMXA/VVENissanR34</url>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VanillaVehiclesExpanded</packageId>
+			<displayName>Vanilla Vehicles Expanded</displayName>
+			<downloadUrl></downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+	</loadAfter>
+</ModMetaData>

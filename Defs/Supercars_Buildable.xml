@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Nissan_Blueprint</defName>
+		<label>Nissan</label>
+		<description>The legendary Nissan Skyline GT-R R34 is the crown of the era of Japanese sports cars.  
+This car combines a powerful turbocharged engine with precise handling and the proprietary ATTESA E-TS all-wheel drive system.  
+In the RimWorld world, it looks just as wild as it did in the 21st century — it roars, glitters and rushes forward, reminding of the old days of speed and freedom.</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Nissan_R34/Nissan</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 5)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>18500</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<researchPrerequisites>
+			<li>VVE_Nissan_project</li>
+		</researchPrerequisites>
+		
+		<size>(2, 4)</size>
+		
+		<costList>
+			<VVE_EngineBlock>1</VVE_EngineBlock>
+			<VVE_CarAlternator>2</VVE_CarAlternator>
+			<VVE_CarExhaust>4</VVE_CarExhaust>
+			<VVE_CarSuspension>4</VVE_CarSuspension>
+			<VVE_CarWheel>4</VVE_CarWheel>
+			<Steel>300</Steel>
+			<ComponentIndustrial>14</ComponentIndustrial>
+			<Silver>380</Silver>
+			<VVE_CarTransmission>2</VVE_CarTransmission>
+			<VVE_CarRadiator>2</VVE_CarRadiator>
+			<VVE_CarWiring>1</VVE_CarWiring>
+			<VVE_CarBattery>1</VVE_CarBattery>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>VVE_Nissan</thingToSpawn>
+	</Vehicles.VehicleBuildDef>
+</Defs>

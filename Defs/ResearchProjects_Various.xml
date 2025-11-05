@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>VVE_Nissan_project</defName>
+    <label>nissan</label>
+    <description>Learn to build fast and luxurious supercars such as the Nissan R34.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>4.50</researchViewX>
+    <researchViewY>2.50</researchViewY>
+	<tab>Vehicles</tab>
+  </ResearchProjectDef>
+</Defs>
