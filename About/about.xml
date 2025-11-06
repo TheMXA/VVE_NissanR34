@@ -13,7 +13,7 @@
 		<li>
 			<packageId>OskarPotocki.VanillaVehiclesExpanded</packageId>
 			<displayName>Vanilla Vehicles Expanded</displayName>
-			<downloadUrl></downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014906877</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
