@@ -46,7 +46,7 @@ In the RimWorld world, it looks just as wild as it did in the 21st century — i
 		
 		<vehicleStats>
 			<Mass>220</Mass>
-			<MoveSpeed>17.5</MoveSpeed>
+			<MoveSpeed>30</MoveSpeed>
 			<CargoCapacity>210</CargoCapacity>
 			<RepairRate>0.36</RepairRate>
 			<AccelerationRate>0.2</AccelerationRate>
@@ -415,8 +415,8 @@ In the RimWorld world, it looks just as wild as it did in the 21st century — i
 		<comps>
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
-				<fuelConsumptionRate>38.5</fuelConsumptionRate>
-				<fuelCapacity>100</fuelCapacity>
+				<fuelConsumptionRate>45</fuelConsumptionRate>
+				<fuelCapacity>120</fuelCapacity>
 			</li>
 		</comps>
 	</Vehicles.VehicleDef>
